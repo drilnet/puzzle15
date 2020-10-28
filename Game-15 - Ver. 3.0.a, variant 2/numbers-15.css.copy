@@ -1,0 +1,56 @@
+
+	/* Шрифты взяты с: https://github.com/maxwell-k/dejavu-sans-mono-web-font */
+
+	@font-face {
+	font-family: "DejaVu Sans Mono_";
+	font-style: normal;
+	font-weight: normal;
+	src: url(fonts/DejaVuSansMono.woff) format("woff");
+	}
+
+	@font-face {
+	font-family: "DejaVu Sans Mono_";
+	font-style: normal;
+	font-weight: bold;
+	src: url(fonts/DejaVuSansMono-Bold.woff) format("woff");
+	}
+
+	@font-face {
+	font-family: "DejaVu Sans Mono_";
+	font-style: oblique;
+	font-weight: bold;
+	src: url(fonts/DejaVuSansMono-BoldOblique.woff) format("woff");
+	}
+
+	@font-face {
+	font-family: "DejaVu Sans Mono_";
+	font-style: oblique;
+	font-weight: normal;
+	src: url(fonts/DejaVuSansMono-Oblique.woff) format("woff");
+	}
+
+	/* Шрифт и цвет символов на всех страницах */
+
+	body {
+	font-family: DejaVu Sans Mono_;
+	font-size: 73%;
+	color: #333333;
+	}
+
+	/* Размер одной ячейки */
+
+	.n15_size_cell {
+	width: 116px; /* 120 - 4 = 116px */
+	height: 59px; /*  63 - 4 = 59px  */
+
+	background: #f6f8fa;
+	background: linear-gradient(to top, #f6f8fa, #ffffff);
+	border: 2px solid #bfd1e5;
+	border-radius: 0px;
+	}
+
+	/* Размер и Цвет цифрам */
+	.n15_font {
+	font-size: 3em;
+	color: #485e92;
+	}

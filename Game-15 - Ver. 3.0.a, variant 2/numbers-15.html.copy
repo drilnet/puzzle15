@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<!-- (C) Demidov S.V. -->
+
+<!--
+	Украина, 64250, Харьковская обл.,
+	Балаклейский р-н, пос. Донец,
+	ул. Стадионная 1-Б, кв. 20.
+	Демидов С.В.
+-->
+	<!-- Numbers Game-15 - Ver. 3.0.a -->
+
+	<head> 
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+	<link rel="stylesheet" type="text/css" href="numbers-15.css">
+	</head>
+
+<body>
+
+	<!-- Костяшки -->
+
+	<table align="center" class="g15_table_bg" cellspacing="0" cellpadding="0" border="0">
+
+		<!-- 1, 2, 3, 4 -->
+		<tr>
+
+			<!-- 1 -->
+			<td align="center" valign="middle" class="n15_size_cell">
+			<font class="n15_font">1</font>
+			</td>
+
+			<!-- 2 -->
+			<td align="center" valign="middle" class="n15_size_cell">
+			<font class="n15_font">2</font>
+			</td>
+
+			<!-- 3 -->
+			<td align="center" valign="middle" class="n15_size_cell">
+			<font class="n15_font">3</font>
+			</td>
+
+			<!-- 4 -->
+			<td align="center" valign="middle" class="n15_size_cell">
+			<font class="n15_font">4</font>
+			</td>
+
+		</tr>
+
+		<!-- 5, 6, 7, 8 -->
+		<tr>
+
+			<!-- 5 -->
+			<td align="center" valign="middle" class="n15_size_cell">
+			<font class="n15_font">5</font>
+			</td>
+
+			<!-- 6 -->
+			<td align="center" valign="middle" class="n15_size_cell">
+			<font class="n15_font">6</font>
+			</td>
+
+			<!-- 7 -->
+			<td align="center" valign="middle" class="n15_size_cell">
+			<font class="n15_font">7</font>
+			</td>
+
+			<!-- 8 -->
+			<td align="center" valign="middle" class="n15_size_cell">
+			<font class="n15_font">8</font>
+			</td>
+
+		</tr>
+
+		<!-- 9, 10, 11, 12 -->
+		<tr>
+
+			<!-- 9 -->
+			<td align="center" valign="middle" class="n15_size_cell">
+			<font class="n15_font">9</font>
+			</td>
+
+			<!-- 10 -->
+			<td align="center" valign="middle" class="n15_size_cell">
+			<font class="n15_font">10</font>
+			</td>
+
+			<!-- 11 -->
+			<td align="center" valign="middle" class="n15_size_cell">
+			<font class="n15_font">11</font>
+			</td>
+
+			<!-- 12 -->
+			<td align="center" valign="middle" class="n15_size_cell">
+			<font class="n15_font">12</font>
+			</td>
+
+		</tr>
+
+		<!-- 13, 14, 15, 16 -->
+		<tr>
+
+			<!-- 13 -->
+			<td align="center" valign="middle" class="n15_size_cell">
+			<font class="n15_font">13</font>
+			</td>
+
+			<!-- 14 -->
+			<td align="center" valign="middle" class="n15_size_cell">
+			<font class="n15_font">14</font>
+			</td>
+
+			<!-- 15 -->
+			<td align="center" valign="middle" class="n15_size_cell">
+			<font class="n15_font">15</font>
+			</td>
+
+			<!-- 16 -->
+			<td align="center" valign="middle" class="n15_size_cell">
+			<font class="n15_font">16</font>
+			</td>
+
+		</tr>
+
+	</table>
+
+</body>
+</html>

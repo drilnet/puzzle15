@@ -1,0 +1,252 @@
+
+	/* Шрифты взяты с: https://github.com/maxwell-k/dejavu-sans-mono-web-font */
+
+	@font-face {
+	font-family: "DejaVu Sans Mono_";
+	font-style: normal;
+	font-weight: normal;
+	src: url(fonts/DejaVuSansMono.woff) format("woff");
+	}
+
+	@font-face {
+	font-family: "DejaVu Sans Mono_";
+	font-style: normal;
+	font-weight: bold;
+	src: url(fonts/DejaVuSansMono-Bold.woff) format("woff");
+	}
+
+	@font-face {
+	font-family: "DejaVu Sans Mono_";
+	font-style: oblique;
+	font-weight: bold;
+	src: url(fonts/DejaVuSansMono-BoldOblique.woff) format("woff");
+	}
+
+	@font-face {
+	font-family: "DejaVu Sans Mono_";
+	font-style: oblique;
+	font-weight: normal;
+	src: url(fonts/DejaVuSansMono-Oblique.woff) format("woff");
+	}
+
+	/* Шрифт и цвет символов на всех страницах */
+
+	body {
+	font-family: DejaVu Sans Mono_;
+	font-size: 73%;
+	color: #333333;
+	}
+
+	/* Параграф */
+
+	p {
+	line-height: 16px;
+	}
+
+	/* Цвет ссылкам. */
+
+	a {
+	color: #0144b4;
+	text-decoration: none;
+	}
+
+	a:visited { 
+	color: #0144b4;
+	text-decoration: none;
+	}
+
+	a:hover {
+	color: #0144b4;
+	text-decoration: underline;
+	}
+
+	select {
+	width: 64px;
+	background: #ffffff;
+	}
+
+	/* Начальный заголовок */
+
+	.g15_title {
+	background: #f0f2f4;
+	border: 1px solid #f0f2f4;
+	border-radius: 0px;
+	padding: 4px 0px 4px 0px;
+	width: 720px;
+	}
+
+	/* Горизонтальная разделяющая линия 2 */
+
+	.g15_hr2 {
+	border: none;              /* Убираем границу для браузера Firefox    */
+	background-color: #e0e2e4; /* Цвет линии для браузера Firefox и Opera */
+	color: #e0e2e4;            /* Цвет линии для остальных браузеров      */
+	height: 1px;               /* Толщина линии                           */
+	}
+
+	/* Верхний отступ для линии 2 */
+
+	.g15_hr2_margint {
+	margin-top: 8px;
+	}
+
+	/* Нижний отступ для линии 2 */
+
+	.g15_hr2_marginb {
+	margin-bottom: 8px;
+	}
+
+	/* Длина линии. Меню: Как размешать */
+
+	.g15_hr2_width_stir {
+	width: 560px;
+	}
+
+	/* Длина линии. Меню: вкл/вык анимация */
+	.g15_hr2_width_anim {
+	width: 340px;
+	}
+
+	/* Кнопка с текстом */
+
+	.g15_txtbutton {
+	background: linear-gradient(to top, #f6f8fa, #ffffff);
+	border: 1px solid #bfd1e5;
+	border-radius: 2px;
+	padding: 4px 10px 4px 10px;
+	}
+
+	/* Неактивная Кнопка с текстом */
+
+	.g15_txtbutton_gray {
+	background: linear-gradient(to top, #fcfcfc, #ffffff);
+	border: 1px solid #ebebeb;
+	border-radius: 2px;
+	padding: 4px 10px 4px 10px;
+	color: #a0a0a0;
+	}
+
+	/* Не показывать стандартный radio button */
+
+	.g15_radiobutton {
+	display: none;
+	}
+
+	/* Неактивный radio button */
+
+	.g15_radiobutton + label {
+	background: url("images-rb/radio-false.png") no-repeat scroll 0 0;
+	cursor: pointer;
+	padding: 0px 0px 1px 15px;
+	}
+
+	/* Активный radio button */
+
+	.g15_radiobutton:checked + label {
+	background: url("images-rb/radio-true.png") no-repeat scroll 0 0;
+	}
+
+	/* Цвет тексту radio button */
+
+	.g15_label_radio {
+	color: #006699;
+	}
+
+	/* При наведении на radio button */
+
+	.g15_label_radio:hover{
+	color: #006699;
+	text-decoration: underline;
+	}
+
+	/* Внутренний нижний отступ для radio button */
+
+	.g15_rbpaddingb {
+	padding-bottom: 1px;
+	}
+
+	/* Внутренний правый отступ для radio button */
+
+	.g15_rbpaddingr {
+	padding-right: 4px;
+	}
+
+	/* Подложка (фон и бордюр) для информационной строки */
+	/* Подсчёт перемещений */
+
+	.g15_table_bginfo {
+	background: #ffffff;
+	border: 1px solid #e0e2e4;
+	padding: 4px;
+	width: 640px; /* 512 + 12 = 524 */
+	margin-bottom: 8px;
+	}
+
+	/* Подложка (фон и бордюр) вокруг всех костяшек */
+
+	.g15_table_bg {
+	background: #ffffff;
+	border: 1px solid #e0e2e4;
+	padding: 4px;
+	}
+
+	/* Размер одной ячейки */
+
+	.g15_size_cell {
+	width: 120px;
+	height: 63px;
+	}
+
+	/* Отступ для ячейки */
+
+	.g15_padding-bottom {
+	padding-bottom: 1px;
+	}
+
+	/* Отступ для ячейки */
+
+	.g15_padding-right {
+	padding-right: 1px;
+	}
+
+	/* Костяшка (изображение) */
+
+	.g15_image {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	}
+
+	/* Подложка (фон и бордюр) для всего меню */
+
+	.g15_table_bgmenu {
+	background: #ffffff;
+	border: 1px solid #e0e2e4;
+	width: 640px; /* 512 + 12 = 524 */
+	margin-top: 8px;
+	}
+
+	/* Подложка (фон и бордюр) для заголовка: Доступные изображения */
+
+	.g15_table_bg_img_title {
+	background: #f1f8ff;
+	border: 1px solid #f1f8ff;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-bottom: 4px;
+	width: 400px;
+	}
+
+	/* Цвет тексту: Доступные изображения */
+
+	.g15_img_title {
+	color: #485e92;
+	}
+
+	/* Подложка (фон и бордюр) для меню: Какие изображения доступны */
+
+	.g15_table_bgmenu_img {
+	background: #ffffff;
+	border: 1px solid #e0e2e4;
+	margin-bottom: 8px;
+	}

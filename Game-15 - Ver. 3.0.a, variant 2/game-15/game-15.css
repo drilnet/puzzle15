@@ -65,16 +65,6 @@
 	background: #ffffff;
 	}
 
-	/* Начальный заголовок */
-
-	.g15_title {
-	background: #f0f2f4;
-	border: 1px solid #f0f2f4;
-	border-radius: 0px;
-	padding: 4px 0px 4px 0px;
-	width: 720px;
-	}
-
 	/* Горизонтальная разделяющая линия 2 */
 
 	.g15_hr2 {
@@ -105,6 +95,11 @@
 	/* Длина линии. Меню: вкл/вык анимация */
 	.g15_hr2_width_anim {
 	width: 340px;
+	}
+
+	/* Длина линии. Ссылка на https://en.wikipedia.org/wiki/15_puzzle */
+	.g15_hr2_width_enwiki {
+	width: 320px;
 	}
 
 	/* Кнопка с текстом */

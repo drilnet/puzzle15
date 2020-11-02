@@ -3,8 +3,8 @@
 
 <hr>
 
-## Blender 3D. Игральная кость
+## Игра Пятнашки (Puzzle 15, Game 15), игра написана на JavaScript
 
 Лицензия (License): **GNU GPL V3**.
 
-![](https://github.com/drilnet/blender3d-dice2/blob/master/UA.png)
+![](https://github.com/drilnet/puzzle15/blob/main/UA.png)

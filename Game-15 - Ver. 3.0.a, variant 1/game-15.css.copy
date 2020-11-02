@@ -1,0 +1,225 @@
+
+	/* Шрифты взяты с: https://github.com/maxwell-k/dejavu-sans-mono-web-font */
+
+	@font-face {
+	font-family: "DejaVu Sans Mono_";
+	font-style: normal;
+	font-weight: normal;
+	src: url(fonts/DejaVuSansMono.woff) format("woff");
+	}
+
+	@font-face {
+	font-family: "DejaVu Sans Mono_";
+	font-style: normal;
+	font-weight: bold;
+	src: url(fonts/DejaVuSansMono-Bold.woff) format("woff");
+	}
+
+	@font-face {
+	font-family: "DejaVu Sans Mono_";
+	font-style: oblique;
+	font-weight: bold;
+	src: url(fonts/DejaVuSansMono-BoldOblique.woff) format("woff");
+	}
+
+	@font-face {
+	font-family: "DejaVu Sans Mono_";
+	font-style: oblique;
+	font-weight: normal;
+	src: url(fonts/DejaVuSansMono-Oblique.woff) format("woff");
+	}
+
+	/* Шрифт и цвет символов на всех страницах */
+
+	body {
+	font-family: DejaVu Sans Mono_;
+	font-size: 73%;
+	color: #333333;
+	}
+
+	/* Параграф */
+
+	p {
+	line-height: 16px;
+	}
+
+	/* Цвет ссылкам. */
+
+	a {
+	color: #0144b4;
+	text-decoration: none;
+	}
+
+	a:visited { 
+	color: #0144b4;
+	text-decoration: none;
+	}
+
+	a:hover{
+	color: #0144b4;
+	text-decoration: underline;
+	}
+
+	/* Горизонтальная разделяющая линия 1 */
+
+	hr {
+	border: none;              /* Убираем границу для браузера Firefox    */
+	background-color: #aaaaaa; /* Цвет линии для браузера Firefox и Opera */
+	color: #aaaaaa;            /* Цвет линии для остальных браузеров      */
+	height: 1px;               /* Толщина линии                           */
+	width: 100%;
+	margin-top: 4px;
+	margin0bottom: 4px;
+	}
+
+	/* Горизонтальная разделяющая линия 2 */
+
+	.hr2 {
+	border: none;              /* Убираем границу для браузера Firefox    */
+	background-color: #e0e2e4; /* Цвет линии для браузера Firefox и Opera */
+	color: #e0e2e4;            /* Цвет линии для остальных браузеров      */
+	height: 1px;               /* Толщина линии                           */
+	}
+
+	/* Верхний отступ для линии 2 */
+
+	.hr2_margint {
+	margin-top: 8px;
+	}
+
+	/* Нижний отступ для линии 2 */
+
+	.hr2_marginb {
+	margin-bottom: 8px;
+	}
+
+	/* Длина линии. Меню: Как размешать */
+
+	.hr2_width_stir {
+	width: 560px;
+	}
+
+	/* Длина линии. Меню: вкл/вык анимация */
+	.hr2_width_anim {
+	width: 340px;
+	}
+
+	/* Кнопка с текстом */
+
+	.txtbutton {
+	background: #f6f8fa;
+	background: linear-gradient(to top, #f6f8fa, #ffffff);
+	border: 1px solid #bfd1e5;
+	border-radius: 2px;
+	padding: 4px 10px 4px 10px;
+	}
+
+	/* Неактивная Кнопка с текстом */
+
+	.txtbutton_gray {
+	background: linear-gradient(to top, #fcfcfc, #ffffff);
+	border: 1px solid #ebebeb;
+	border-radius: 2px;
+	padding: 4px 10px 4px 10px;
+	color: #a0a0a0;
+	}
+
+	/* Не показывать стандартный radio button */
+
+	.radiobutton {
+	display: none;
+	}
+
+	/* Неактивный radio button */
+
+	.radiobutton + label {
+	background: url("images-rb/radio-false.png") no-repeat scroll 0 0;
+	cursor: pointer;
+	padding: 0px 0px 1px 15px;
+	}
+
+	/* Активный radio button */
+
+	.radiobutton:checked + label {
+	background: url("images-rb/radio-true.png") no-repeat scroll 0 0;
+	}
+
+	/* Цвет тексту radio button */
+
+	.label_radio {
+	color: #006699;
+	}
+
+	/* При наведении на radio button */
+
+	.label_radio:hover{
+	color: #006699;
+	text-decoration: underline;
+	}
+
+	/* Внутренний нижний отступ для radio button */
+
+	.rbpaddingb {
+	padding-bottom: 1px;
+	}
+
+	/* Внутренний правый отступ для radio button */
+
+	.rbpaddingr {
+	padding-right: 4px;
+	}
+
+	/* Фон и бордюр для информационной строки */
+	/* Подсчёт перемещений */
+
+	.table_bginfo {
+	background: #ffffff;
+	border: 1px solid #e0e2e4;
+	padding: 4px;
+	width: 640px; /* 512 + 12 = 524 */
+	margin-bottom: 8px;
+	}
+
+	/* Фон и бордюр вокруг всех костяшек */
+
+	.table_bg {
+	background: #ffffff;
+	border: 1px solid #e0e2e4;
+	padding: 4px;
+	}
+
+	/* Размер одной ячейки */
+
+	.size_cell {
+	width: 120px;
+	height: 63px;
+	}
+
+	/* Отступ для ячейки */
+
+	.padding-bottom {
+	padding-bottom: 1px;
+	}
+
+	/* Отступ для ячейки */
+
+	.padding-right {
+	padding-right: 1px;
+	}
+
+	/* Костяшка (изображение) */
+
+	.image {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	}
+
+	/* Фон и бордюр для меню */
+
+	.table_bgmenu {
+	background: #ffffff;
+	border: 1px solid #e0e2e4;
+	width: 640px; /* 512 + 12 = 524 */
+	margin-top: 8px;
+	}

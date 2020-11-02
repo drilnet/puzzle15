@@ -132,6 +132,7 @@ function G15_Init()
 {
 	$G15 = 0;
 	SetDefaultRadioButton();
+	EnableButtons();
 }
 
 // Установить по умолчанию Radio Buttons (для FireFox).
@@ -147,20 +148,20 @@ function SetDefaultRadioButton()
 	document.getElementById('anim_2').checked = true;
 }
 
+// Включить кнопку [ Начать игру ].
+function EnableButtons()
+{
+	// Включаем кнопку [ Начать игру ].
+	document.getElementById('start_table').setAttribute('class', 'txtbutton');
+	document.getElementById('start').innerHTML = "<a href=\"javascript:Start()\" title=\"Нажмите\">Начать игру</a>";
+}
+
 // Отключить кнопку [ Начать игру ].
 function DisableButtons()
 {
 	// Отключаем кнопку [ Начать игру ].
 	document.getElementById('start_table').setAttribute('class', 'txtbutton_gray');
 	document.getElementById('start').innerHTML = "Начать игру";
-}
-
-// Включить кнопку [ Начать игру] 
-function EnableButtons()
-{
-	// Включаем кнопку [ Начать игру ]
-	document.getElementById('start_table').setAttribute('class', 'txtbutton');
-	document.getElementById('start').innerHTML = "<a href=\"javascript:Start()\" title=\"Нажмите\">Начать игру</a>";
 }
 
 // Плавная прозрачность для idimage_15.

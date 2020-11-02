@@ -8,3 +8,5 @@
 Лицензия (License): **GNU GPL V3**.
 
 ![](https://github.com/drilnet/puzzle15/blob/main/UA.png)
+
+Game-15 - Ver. 3.0.a, variant 1 - С одним изображением.

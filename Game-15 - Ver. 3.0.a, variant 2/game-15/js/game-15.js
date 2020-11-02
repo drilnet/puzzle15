@@ -41,8 +41,12 @@ function G15_Start()
 	// Установить перемещений 0.
 	document.getElementById('transfer_cur').innerHTML = '&nbsp;<b>' + $g15_transfer_cur + '</b>';
 
-	// Отключить кнопку: [ Начать игру ].
+	// Отключаем кнопку [ Начать игру ].
+	// Отключаем кнопку [ Установить настройки по умолчанию ].
 	G15_DisableButtons();
+
+	// Отключаем Radio Buttons [ Установить нужное изображение ].
+	G15_DisableRBImage();
 
 	if ($G15 == 1)
 		{
@@ -100,8 +104,12 @@ function G15_Start()
 
 	ms = ms + $g15_interval;
 
-	// Включить кнопку: [ Начать игру ].
+	// Включаем кнопку: [ Начать игру ].
+	// Включаем кнопку: [ Установить настройки по умолчанию ].
 	setTimeout(G15_EnableButtons, ms);
+
+	// Включаем Radio Buttons [ Установить нужное изображение ].
+	setTimeout(G15_EnableRBImage, ms);
 
 	// Теперь можно играть!
 }
@@ -110,13 +118,15 @@ function G15_Start()
 function G15_Init()
 {
 	$G15 = 0;
-	G15_SetDefaultRadioButton();
+	G15_SetDefaultRadioButtons();
+	G15_EnableButtons();
+	G15_EnableRBImage();
 
 	$g15_catalog = '01';
 }
 
 // Установить по умолчанию Radio Buttons (для FireFox).
-function G15_SetDefaultRadioButton()
+function G15_SetDefaultRadioButtons()
 {
 	// [ Размешать стандартно ], [ Размешать нестандартно ], [ Поменять местами ].
 	document.getElementById('g15_mix_1').checked = true;
@@ -133,34 +143,7 @@ function G15_SetDefaultRadioButton()
 	document.getElementById('g15_img_3').checked = false;
 }
 
-// Установить настройки по умолчанию.
-function G15_SetDefault()
-{
-	G15_Init();
-	G15_SetImage()
-
-	// Установить перемещений 0.
-	document.getElementById('transfer_cur').innerHTML = '&nbsp;<b>' + 0 + '</b>';
-}
-
-// Отключить Кнопки и отключить Radio Buttons!
-function G15_DisableButtons()
-{
-	// Отключаем кнопку [ Начать игру ].
-	document.getElementById('g15_start_table').setAttribute('class', 'g15_txtbutton_gray');
-	document.getElementById('g15_start').innerHTML = "Начать игру";
-
-	// Отключаем кнопку [ Установить настройки по умолчанию ].
-	document.getElementById('g15_set_table').setAttribute('class', 'g15_txtbutton_gray');
-	document.getElementById('g15_set').innerHTML = "Установить настройки по умолчанию";
-
-	// Отключаем Radio Buttons [ Установить изображение ].
-	document.getElementById('g15_img_1').setAttribute('disabled', 0);
-	document.getElementById('g15_img_2').setAttribute('disabled', 0);
-	document.getElementById('g15_img_3').setAttribute('disabled', 0);
-}
-
-// Включить Кнопки и включить Radio Buttons!
+// Включить кнопки: [ Начать игру ], [ Установить настройки по умолчанию ].
 function G15_EnableButtons()
 {
 	// Включаем кнопку [ Начать игру ]
@@ -170,11 +153,99 @@ function G15_EnableButtons()
 	// Включаем кнопку [ Установить настройки по умолчанию ].
 	document.getElementById('g15_set_table').setAttribute('class', 'g15_txtbutton');
 	document.getElementById('g15_set').innerHTML = "<a href=\"javascript:G15_SetDefault()\" title=\"Нажмите\">Установить настройки по умолчанию</a>";
+}
 
-	// Включаем Radio Buttons [ Установить изображение ].
-	document.getElementById('g15_img_1').removeAttribute('disabled');
-	document.getElementById('g15_img_2').removeAttribute('disabled');
-	document.getElementById('g15_img_3').removeAttribute('disabled');
+// Отключить кнопки: [ Начать игру ], [ Установить настройки по умолчанию ].
+function G15_DisableButtons()
+{
+	// Отключаем кнопку [ Начать игру ].
+	document.getElementById('g15_start_table').setAttribute('class', 'g15_txtbutton_gray');
+	document.getElementById('g15_start').innerHTML = "Начать игру";
+
+	// Отключаем кнопку [ Установить настройки по умолчанию ].
+	document.getElementById('g15_set_table').setAttribute('class', 'g15_txtbutton_gray');
+	document.getElementById('g15_set').innerHTML = "Установить настройки по умолчанию";
+}
+
+// включить Radio Buttons [ Установить нужное изображение ].
+function G15_EnableRBImage()
+{
+	// Включаем Radio Buttons [ Установить нужное изображение ].
+	document.getElementById('g15_img_1_label').setAttribute('style', 'pointer-events: block;');
+	document.getElementById('g15_img_2_label').setAttribute('style', 'pointer-events: block;');
+	document.getElementById('g15_img_3_label').setAttribute('style', 'pointer-events: block;');
+}
+
+// Отключить Radio Buttons [ Установить нужное изображение ].
+function G15_DisableRBImage()
+{
+	// Отключаем Radio Buttons [ Установить нужное изображение ].
+	document.getElementById('g15_img_1_label').setAttribute('style', 'pointer-events: none;');
+	document.getElementById('g15_img_2_label').setAttribute('style', 'pointer-events: none;');
+	document.getElementById('g15_img_3_label').setAttribute('style', 'pointer-events: none;');
+}
+
+// Установить настройки по умолчанию.
+function G15_SetDefault()
+{
+	$G15 = 0;
+	G15_SetDefaultRadioButtons();
+	G15_SetImage()
+
+	// Установить перемещений 0.
+	document.getElementById('transfer_cur').innerHTML = '&nbsp;<b>' + 0 + '</b>';
+}
+
+// Установить нужное изображение.
+function G15_SetImage()
+{
+	if (document.getElementById('g15_img_1').checked === true)
+		{
+		// Устанавливаем изображение: Цифры.
+		$g15_catalog = '00';
+		}
+
+	if (document.getElementById('g15_img_2').checked === true)
+		{
+		// Устанавливаем изображение: LogoVRLE8.
+		$g15_catalog = '01';
+		}
+
+	if (document.getElementById('g15_img_3').checked === true)
+		{
+		// Устанавливаем изображение: LogoVRLE16.
+		$g15_catalog = '02';
+		}
+
+	G15_SetI();
+}
+
+// -
+function G15_SetI()
+{
+	// 0, 1, 2, 3.
+	document.getElementById('g15_idcell_0').innerHTML = '<a id=\"g15_idhref_0\"><img class=\"g15_image\" src=\"game-15/Cat_' + $g15_catalog + '/Image-00.png\"></a>';
+	document.getElementById('g15_idcell_1').innerHTML = '<a id=\"g15_idhref_1\"><img class=\"g15_image\" src=\"game-15/Cat_' + $g15_catalog + '/Image-05.png\"></a>';
+	document.getElementById('g15_idcell_2').innerHTML = '<a id=\"g15_idhref_2\"><img class=\"g15_image\" src=\"game-15/Cat_' + $g15_catalog + '/Image-10.png\"></a>';
+	document.getElementById('g15_idcell_3').innerHTML = '<a id=\"g15_idhref_3\"><img class=\"g15_image\" src=\"game-15/Cat_' + $g15_catalog + '/Image-15.png\"></a>';
+
+	// 4, 5, 6, 7.
+	document.getElementById('g15_idcell_4').innerHTML = '<a id=\"g15_idhref_4\"><img class=\"g15_image\" src=\"game-15/Cat_' + $g15_catalog + '/Image-20.png\"></a>';
+	document.getElementById('g15_idcell_5').innerHTML = '<a id=\"g15_idhref_5\"><img class=\"g15_image\" src=\"game-15/Cat_' + $g15_catalog + '/Image-25.png\"></a>';
+	document.getElementById('g15_idcell_6').innerHTML = '<a id=\"g15_idhref_6\"><img class=\"g15_image\" src=\"game-15/Cat_' + $g15_catalog + '/Image-30.png\"></a>';
+	document.getElementById('g15_idcell_7').innerHTML = '<a id=\"g15_idhref_7\"><img class=\"g15_image\" src=\"game-15/Cat_' + $g15_catalog + '/Image-35.png\"></a>';
+
+	// 8, 9, 10, 11.
+	document.getElementById('g15_idcell_8').innerHTML = '<a id=\"g15_idhref_8\"><img class=\"g15_image\" src=\"game-15/Cat_' + $g15_catalog + '/Image-40.png\"></a>';
+	document.getElementById('g15_idcell_9').innerHTML = '<a id=\"g15_idhref_9\"><img class=\"g15_image\" src=\"game-15/Cat_' + $g15_catalog + '/Image-45.png\"></a>';
+	document.getElementById('g15_idcell_10').innerHTML = '<a id=\"g15_idhref_10\"><img class=\"g15_image\" src=\"game-15/Cat_' + $g15_catalog + '/Image-50.png\"></a>';
+	document.getElementById('g15_idcell_11').innerHTML = '<a id=\"g15_idhref_11\"><img class=\"g15_image\" src=\"game-15/Cat_' + $g15_catalog + '/Image-55.png\"></a>';
+
+	// 12, 13, 14, 15.
+	document.getElementById('g15_idcell_12').innerHTML = '<a id=\"g15_idhref_12\"><img class=\"g15_image\" src=\"game-15/Cat_' + $g15_catalog + '/Image-60.png\"></a>';
+	document.getElementById('g15_idcell_13').innerHTML = '<a id=\"g15_idhref_13\"><img class=\"g15_image\" src=\"game-15/Cat_' + $g15_catalog + '/Image-65.png\"></a>';
+	document.getElementById('g15_idcell_14').innerHTML = '<a id=\"g15_idhref_14\"><img class=\"g15_image\" src=\"game-15/Cat_' + $g15_catalog + '/Image-70.png\"></a>';
+	document.getElementById('g15_idcell_15').innerHTML = '<a id=\"g15_idhref_15\"><img id=\"g15_idimage_15\" class=\"g15_image\" src=\"game-15/Cat_' + $g15_catalog + '/Image-75.png\"></a>';
 }
 
 // Плавная прозрачность для g15_idimage_15.
@@ -1668,60 +1739,4 @@ function G15_Verify()
 
 			// Продолжаем играть.
 			}
-}
-
-// Установить нужное изображение.
-function G15_SetImage()
-{
-	// Установить перемещений 0.
-	document.getElementById('transfer_cur').innerHTML = '&nbsp;<b>' + 0 + '</b>';
-
-
-	if (document.getElementById('g15_img_1').checked === true)
-		{
-		// Устанавливаем изображение: Цифры.
-		$g15_catalog = '00';
-		}
-
-	if (document.getElementById('g15_img_2').checked === true)
-		{
-		// Устанавливаем изображение: LogoVRLE8.
-		$g15_catalog = '01';
-		}
-
-	if (document.getElementById('g15_img_3').checked === true)
-		{
-		// Устанавливаем изображение: LogoVRLE16.
-		$g15_catalog = '02';
-		}
-
-	G15_SetI();
-}
-
-// -
-function G15_SetI()
-{
-		// 0, 1, 2, 3.
-		document.getElementById('g15_idcell_0').innerHTML = '<a id=\"g15_idhref_0\"><img class=\"g15_image\" src=\"game-15/Cat_' + $g15_catalog + '/Image-00.png\"></a>';
-		document.getElementById('g15_idcell_1').innerHTML = '<a id=\"g15_idhref_1\"><img class=\"g15_image\" src=\"game-15/Cat_' + $g15_catalog + '/Image-05.png\"></a>';
-		document.getElementById('g15_idcell_2').innerHTML = '<a id=\"g15_idhref_2\"><img class=\"g15_image\" src=\"game-15/Cat_' + $g15_catalog + '/Image-10.png\"></a>';
-		document.getElementById('g15_idcell_3').innerHTML = '<a id=\"g15_idhref_3\"><img class=\"g15_image\" src=\"game-15/Cat_' + $g15_catalog + '/Image-15.png\"></a>';
-
-		// 4, 5, 6, 7.
-		document.getElementById('g15_idcell_4').innerHTML = '<a id=\"g15_idhref_4\"><img class=\"g15_image\" src=\"game-15/Cat_' + $g15_catalog + '/Image-20.png\"></a>';
-		document.getElementById('g15_idcell_5').innerHTML = '<a id=\"g15_idhref_5\"><img class=\"g15_image\" src=\"game-15/Cat_' + $g15_catalog + '/Image-25.png\"></a>';
-		document.getElementById('g15_idcell_6').innerHTML = '<a id=\"g15_idhref_6\"><img class=\"g15_image\" src=\"game-15/Cat_' + $g15_catalog + '/Image-30.png\"></a>';
-		document.getElementById('g15_idcell_7').innerHTML = '<a id=\"g15_idhref_7\"><img class=\"g15_image\" src=\"game-15/Cat_' + $g15_catalog + '/Image-35.png\"></a>';
-
-		// 8, 9, 10, 11.
-		document.getElementById('g15_idcell_8').innerHTML = '<a id=\"g15_idhref_8\"><img class=\"g15_image\" src=\"game-15/Cat_' + $g15_catalog + '/Image-40.png\"></a>';
-		document.getElementById('g15_idcell_9').innerHTML = '<a id=\"g15_idhref_9\"><img class=\"g15_image\" src=\"game-15/Cat_' + $g15_catalog + '/Image-45.png\"></a>';
-		document.getElementById('g15_idcell_10').innerHTML = '<a id=\"g15_idhref_10\"><img class=\"g15_image\" src=\"game-15/Cat_' + $g15_catalog + '/Image-50.png\"></a>';
-		document.getElementById('g15_idcell_11').innerHTML = '<a id=\"g15_idhref_11\"><img class=\"g15_image\" src=\"game-15/Cat_' + $g15_catalog + '/Image-55.png\"></a>';
-
-		// 12, 13, 14, 15.
-		document.getElementById('g15_idcell_12').innerHTML = '<a id=\"g15_idhref_12\"><img class=\"g15_image\" src=\"game-15/Cat_' + $g15_catalog + '/Image-60.png\"></a>';
-		document.getElementById('g15_idcell_13').innerHTML = '<a id=\"g15_idhref_13\"><img class=\"g15_image\" src=\"game-15/Cat_' + $g15_catalog + '/Image-65.png\"></a>';
-		document.getElementById('g15_idcell_14').innerHTML = '<a id=\"g15_idhref_14\"><img class=\"g15_image\" src=\"game-15/Cat_' + $g15_catalog + '/Image-70.png\"></a>';
-		document.getElementById('g15_idcell_15').innerHTML = '<a id=\"g15_idhref_15\"><img id=\"g15_idimage_15\" class=\"g15_image\" src=\"game-15/Cat_' + $g15_catalog + '/Image-75.png\"></a>';
 }

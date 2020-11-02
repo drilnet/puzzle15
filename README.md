@@ -10,4 +10,5 @@
 ![](https://github.com/drilnet/puzzle15/blob/main/UA.png)
 
 [Game-15 - Ver. 3.0.a, variant 1](https://github.com/drilnet/puzzle15/tree/main/Game-15%20-%20Ver.%203.0.a%2C%20variant%201) - С одним изображением.
-[](https://github.com/drilnet/puzzle15/tree/main/Game-15%20-%20Ver.%203.0.a%2C%20variant%202) - С тремя изображениями.
+<br>
+[Game-15 - Ver. 3.0.a, variant 2](https://github.com/drilnet/puzzle15/tree/main/Game-15%20-%20Ver.%203.0.a%2C%20variant%202) - С тремя изображениями.

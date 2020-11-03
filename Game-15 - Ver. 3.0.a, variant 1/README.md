@@ -13,7 +13,7 @@
 <hr>
 
 <div align="center">
-<a href="https://github.com/drilnet/electronics">
+<a href="https://github.com/drilnet/puzzle15">
 [ Вернуться в начало репозитория игры Пятнашки ]
 </a>
 </div>

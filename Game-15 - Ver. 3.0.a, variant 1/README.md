@@ -14,6 +14,8 @@
 <br>
 Откройте **game-15.html** в любом браузере!
 
+Файл: [cat_01_scissors&size.pl]()
+
 [Ukraine](https://en.wikipedia.org/wiki/Ukraine) (Украина). (**C**) Демидов С.В.
 
 <hr>

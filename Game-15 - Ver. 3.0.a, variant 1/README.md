@@ -10,3 +10,12 @@
 
 ![](https://github.com/drilnet/puzzle15/blob/main/UA.png)
 
+<hr>
+
+<div align="center">
+<a href="https://github.com/drilnet/electronics">
+[ Вернуться в начало репозитория игры Пятнашки ]
+</a>
+</div>
+
+<hr>

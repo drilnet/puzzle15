@@ -14,6 +14,7 @@
 Откройте **game-15.html** в любом браузере!
 
 Файлы в каталоге [numbers](https://github.com/drilnet/puzzle15/tree/main/Game-15%20-%20Ver.%203.0.a%2C%20variant%202/numbers) нужны были для получения костяшек/изображений цифр!
+nlnklj jnk
 
 ### Скриншот 1 игры Пятнашки
 

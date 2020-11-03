@@ -19,6 +19,45 @@
 Файл: [cat_01_scissors&size.pl](https://github.com/drilnet/puzzle15/blob/main/Game-15%20-%20Ver.%203.0.a%2C%20variant%201/cat_01_scissors%26size.pl)
 <br>
 Скрипт, который делает нарезку изображений для игры (скрипт написан на [Perl](http://www.perl.org)).
+<br>
+Для работы скрипта необходим [ImageMagick](https://www.imagemagick.org/)!
+
+Открыть скрипт в любом текстовом редакторе!
+<br>
+Найти следующие строки:
+
+```
+# Имя файла входного изображения.
+my $in_image = 'images/01.LogoVRLE8,ver.7b_480x252.png';
+```
+```
+# На какие части порезать (в px).
+my $width_size = 120;
+my $height_size = 63;
+```
+
+120 px и 63px - это размеры костяшек (размер квадратика).
+<br>
+Изображение у нас 480x252px (480 / 4 = 120 px, 252 / 4 = 63 px).
+
+```
+# На сколько уменьшить по ширине.
+# Это для анимации костяшек!
+# 120 / 5 = 24
+my $width_total = 24;
+```
+```
+# На сколько уменьшить по высоте.
+# Это для анимации костяшек!
+# 63 / 5 = 12.6
+my $height_total = 13;
+```
+```
+# Складывать новые изображения сюда:
+$catalog = 'Cat_01';
+```
+
+Запуск скрипта в [FreeBSD](https://www.freebsd.org/) ([Linux](https://linux.org)): $perl cat_01_scissors&size.pl
 
 [Ukraine](https://en.wikipedia.org/wiki/Ukraine) (Украина). (**C**) Демидов С.В.
 

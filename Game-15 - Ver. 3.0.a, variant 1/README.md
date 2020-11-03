@@ -54,6 +54,14 @@ my $height_total = 13;
 $catalog = 'Cat_01';
 ```
 
+**Примечание.**
+<br>
+Комментарии к переменным здесь!
+<br>
+Немного отличаются от комментариев в скрипте!
+<b>
+Но! Разобратся можно!
+
 Запуск скрипта в [FreeBSD](https://www.freebsd.org "Berkeley Software Distribution") ([Linux](https://linux.org)): $ perl cat_01_scissors&size.pl
 
 ### Скриншот 1 игры Пятнашки

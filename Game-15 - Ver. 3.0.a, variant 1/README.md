@@ -10,6 +10,10 @@
 
 ![](https://github.com/drilnet/puzzle15/blob/main/UA.png)
 
+Скачайте! Распакуйте! Дополнительно распакуйте изображения в Cat_01!
+<br>
+Откройте game-15.html в любом браузере!
+
 <hr>
 
 <div align="center">

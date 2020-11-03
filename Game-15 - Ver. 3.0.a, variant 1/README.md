@@ -31,7 +31,7 @@
 my $in_image = 'images/01.LogoVRLE8,ver.7b_480x252.png';
 ```
 ```
-# На какие части порезать (в px).
+# На какие части порезать (в px) входное изображение.
 my $width_size = 120;
 my $height_size = 63;
 ```

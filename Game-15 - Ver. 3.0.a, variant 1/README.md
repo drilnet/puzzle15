@@ -59,11 +59,11 @@ $catalog = 'Cat_01';
 
 Запуск скрипта в [FreeBSD](https://www.freebsd.org "Berkeley Software Distribution") ([Linux](https://linux.org)): $ perl cat_01_scissors&size.pl
 
-### Скриншот 1
+### Скриншот 1 игры Пятнашки
 
 ![](https://github.com/drilnet/puzzle15/blob/main/Game-15%20-%20Ver.%203.0.a%2C%20screenshots/Screenshot%201%20-%20Game-15%2C%20variant%201%20(075%25).png "Лицензия (License) на игру: GNU GPL V3. Лицензия (License) на изображение: Free.")
 
-### Скриншот 2
+### Скриншот 2 игры Пятнашки
 ![](https://github.com/drilnet/puzzle15/blob/main/Game-15%20-%20Ver.%203.0.a%2C%20screenshots/Screenshot%202%20-%20Game-15%2C%20variant%201%20(075%25).png "Лицензия (License) на игру: GNU GPL V3. Лицензия (License) на изображение: Free.")
 
 Эта игра есть у меня на сайте: [https://drilnet.github.io](https://drilnet.github.io/ "Нажмите")

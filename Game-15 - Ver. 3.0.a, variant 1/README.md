@@ -57,7 +57,7 @@ my $height_total = 13;
 $catalog = 'Cat_01';
 ```
 
-Запуск скрипта в [FreeBSD](https://www.freebsd.org/) ([Linux](https://linux.org)): $ perl cat_01_scissors&size.pl
+Запуск скрипта в [FreeBSD](https://www.freebsd.org "Berkeley Software Distribution") ([Linux](https://linux.org)): $ perl cat_01_scissors&size.pl
 
 ### Скриншот 1
 
@@ -66,7 +66,7 @@ $catalog = 'Cat_01';
 ### Скриншот 2
 ![](https://github.com/drilnet/puzzle15/blob/main/Game-15%20-%20Ver.%203.0.a%2C%20screenshots/Screenshot%202%20-%20Game-15%2C%20variant%201%20(075%25).png "Лицензия (License) на игру: GNU GPL V3. Лицензия (License) на изображение: Free.")
 
-Эта игра есть у меня на сайте: [https://drilnet.github.io/](https://drilnet.github.io/ "Нажмите")
+Эта игра есть у меня на сайте: [https://drilnet.github.io](https://drilnet.github.io/ "Нажмите")
 <br>
 Изображение было взято отсюда: [https://github.com/drilnet/blender3d-logovrle8-logovrle16](https://github.com/drilnet/blender3d-logovrle8-logovrle16 "Blender 3D. Логотип VRLE8 и Логотип VRLE16")
 

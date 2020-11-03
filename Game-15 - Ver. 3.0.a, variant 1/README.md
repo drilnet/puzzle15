@@ -14,6 +14,8 @@
 <br>
 Откройте **game-15.html** в любом браузере!
 
+[Ukraine](https://en.wikipedia.org/wiki/Ukraine) (Украина). (**C**) Демидов С.В.
+
 <hr>
 
 <div align="center">

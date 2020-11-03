@@ -3,7 +3,7 @@
 
 <hr>
 
-## Игра Пятнашки (Puzzle 15, Game 15), вариант 1
+## Игра Пятнашки (Puzzle 15, Game 15), вариант 2
 
 Лицензия (License): **GNU GPL V3**.
 
@@ -14,3 +14,23 @@
 Откройте **game-15.html** в любом браузере!
 
 Файлы в каталоге [numbers](https://github.com/drilnet/puzzle15/tree/main/Game-15%20-%20Ver.%203.0.a%2C%20variant%202/numbers) нужны были для получения костяшек/изображений цифр!
+
+### Скриншот 1 игры Пятнашки
+
+![](https://github.com/drilnet/puzzle15/blob/main/Game-15%20-%20Ver.%203.0.a%2C%20screenshots/Screenshot%201%20-%20Game-15%2C%20variant%202%20(075%25).png)
+
+### Скриншот 2 игры Пятнашки
+
+![](https://github.com/drilnet/puzzle15/blob/main/Game-15%20-%20Ver.%203.0.a%2C%20screenshots/Screenshot%202%20-%20Game-15%2C%20variant%201%20(075%25).png)
+
+[Ukraine](https://en.wikipedia.org/wiki/Ukraine) (Украина). (**C**) Демидов С.В.
+
+<hr>
+
+<div align="center">
+<a href="https://github.com/drilnet/puzzle15">
+[ Вернуться в начало репозитория игры Пятнашки ]
+</a>
+</div>
+
+<hr>

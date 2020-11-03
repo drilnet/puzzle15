@@ -9,9 +9,9 @@
 
 ![](https://github.com/drilnet/puzzle15/blob/main/UA.png)
 
-[Game-15 - Ver. 3.0.a, variant 1](https://github.com/drilnet/puzzle15/tree/main/Game-15%20-%20Ver.%203.0.a%2C%20variant%201 "Нажмите") - <span title="Скачайте! Распакуйте! Дополнительно распакуйте изображения в Cat_01! Откройте game-15.html в любом браузере!">С одним изображением.</span>
+[Game-15 - Ver. 3.0.a, variant 1](https://github.com/drilnet/puzzle15/tree/main/Game-15%20-%20Ver.%203.0.a%2C%20variant%201 "Нажмите") - С одним изображением.
 <br>
-[Game-15 - Ver. 3.0.a, variant 2](https://github.com/drilnet/puzzle15/tree/main/Game-15%20-%20Ver.%203.0.a%2C%20variant%202 "Нажмите") - <span title="Скачайте! Распакуйте! Дополнительно распакуйте изображения в Cat_00, Cat_01, Cat_02! Откройте game-15.html в любом браузере!">С тремя изображениями.</span>
+[Game-15 - Ver. 3.0.a, variant 2](https://github.com/drilnet/puzzle15/tree/main/Game-15%20-%20Ver.%203.0.a%2C%20variant%202 "Нажмите") - С тремя изображениями.
 
 [Ukraine](https://en.wikipedia.org/wiki/Ukraine) (Украина). (**C**) Демидов С.В.
 

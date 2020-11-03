@@ -4,6 +4,6 @@
 
 <hr>
 
-## llll
+## Игра Пятнашки (Puzzle 15, Game 15), игра написана на JavaScript
 
 ![](https://github.com/drilnet/puzzle15/blob/main/UA.png)

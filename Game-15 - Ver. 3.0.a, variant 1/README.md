@@ -16,7 +16,7 @@
 
 Файл: [cat_01_scissors&size.pl](https://github.com/drilnet/puzzle15/blob/main/Game-15%20-%20Ver.%203.0.a%2C%20variant%201/cat_01_scissors%26size.pl)
 <br>
-Скрипт, который делает нарезку изображений для игры (написан на [Perl](http://www.perl.org)).
+Скрипт, который делает нарезку изображений для игры (скрипт написан на [Perl](http://www.perl.org)).
 
 [Ukraine](https://en.wikipedia.org/wiki/Ukraine) (Украина). (**C**) Демидов С.В.
 

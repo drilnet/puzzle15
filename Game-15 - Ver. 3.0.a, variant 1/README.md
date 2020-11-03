@@ -57,7 +57,7 @@ my $height_total = 13;
 $catalog = 'Cat_01';
 ```
 
-Запуск скрипта в [FreeBSD](https://www.freebsd.org/) ([Linux](https://linux.org)): $perl cat_01_scissors&size.pl
+Запуск скрипта в [FreeBSD](https://www.freebsd.org/) ([Linux](https://linux.org)): $ perl cat_01_scissors&size.pl
 
 [Ukraine](https://en.wikipedia.org/wiki/Ukraine) (Украина). (**C**) Демидов С.В.
 

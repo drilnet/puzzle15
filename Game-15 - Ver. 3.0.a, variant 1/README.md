@@ -59,7 +59,7 @@ $catalog = 'Cat_01';
 Комментарии к переменным здесь!
 <br>
 Немного отличаются от комментариев в скрипте!
-<b>
+<br>
 Но! Разобратся можно!
 
 Запуск скрипта в [FreeBSD](https://www.freebsd.org "Berkeley Software Distribution") ([Linux](https://linux.org)): $ perl cat_01_scissors&size.pl

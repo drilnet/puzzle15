@@ -14,7 +14,7 @@
 <br>
 Откройте **game-15.html** в любом браузере!
 
-### Как вставить своё изображение
+### Как вставить своё изображение!
 
 Файл: [cat_01_scissors&size.pl](https://github.com/drilnet/puzzle15/blob/main/Game-15%20-%20Ver.%203.0.a%2C%20variant%201/cat_01_scissors%26size.pl)
 <br>

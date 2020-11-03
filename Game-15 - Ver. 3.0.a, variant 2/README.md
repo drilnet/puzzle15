@@ -23,6 +23,16 @@
 
 ![](https://github.com/drilnet/puzzle15/blob/main/Game-15%20-%20Ver.%203.0.a%2C%20screenshots/Screenshot%202%20-%20Game-15%2C%20variant%202%20(075%25).png)
 
+Ещё скриншоты:
+
+![Скриншот 3 игры Пятнашки](https://github.com/drilnet/puzzle15/blob/main/Game-15%20-%20Ver.%203.0.a%2C%20screenshots/Screenshot%203%20-%20Game-15%2C%20variant%202%20(075%25).png)
+<br>
+![Скриншот 4 игры Пятнашки](https://github.com/drilnet/puzzle15/blob/main/Game-15%20-%20Ver.%203.0.a%2C%20screenshots/Screenshot%204%20-%20Game-15%2C%20variant%202%20(075%25).png)
+<br>
+![Скриншот 5 игры Пятнашки](https://github.com/drilnet/puzzle15/blob/main/Game-15%20-%20Ver.%203.0.a%2C%20screenshots/Screenshot%205%20-%20Game-15%2C%20variant%202%20(075%25).png)
+<br>
+![Скриншот 6 игры Пятнашки](https://github.com/drilnet/puzzle15/blob/main/Game-15%20-%20Ver.%203.0.a%2C%20screenshots/Screenshot%206%20-%20Game-15%2C%20variant%202%20(075%25).png)
+
 [Ukraine](https://en.wikipedia.org/wiki/Ukraine) (Украина). (**C**) Демидов С.В.
 
 <hr>

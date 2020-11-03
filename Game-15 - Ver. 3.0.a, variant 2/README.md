@@ -17,11 +17,11 @@
 
 ### Скриншот 1 игры Пятнашки
 
-![](https://github.com/drilnet/puzzle15/blob/main/Game-15%20-%20Ver.%203.0.a%2C%20screenshots/Screenshot%201%20-%20Game-15%2C%20variant%202%20(075%25).png)
+![](https://github.com/drilnet/puzzle15/blob/main/Game-15%20-%20Ver.%203.0.a%2C%20screenshots/Screenshot%201%20-%20Game-15%2C%20variant%202%20(075%25).png "Лицензия (License): GNU GPL V3.")
 
 ### Скриншот 2 игры Пятнашки
 
-![](https://github.com/drilnet/puzzle15/blob/main/Game-15%20-%20Ver.%203.0.a%2C%20screenshots/Screenshot%202%20-%20Game-15%2C%20variant%202%20(075%25).png)
+![](https://github.com/drilnet/puzzle15/blob/main/Game-15%20-%20Ver.%203.0.a%2C%20screenshots/Screenshot%202%20-%20Game-15%2C%20variant%202%20(075%25).png "Лицензия (License): GNU GPL V3.")
 
 Ещё скриншоты:
 

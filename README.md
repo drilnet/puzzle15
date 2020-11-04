@@ -22,6 +22,7 @@
 ![](https://drilnet.github.io/game-15/images-SamLoydS/SamLoydS_400x248.png "Взято с https://en.wikipedia.org/wiki/15_puzzle")
 
 Thank you very much! Спасибо за иллюстрацию!
+<br>
 Взято с [https://en.wikipedia.org/wiki/15_puzzle](https://en.wikipedia.org/wiki/15_puzzle "Нажмите")
 
 **Уважаемый соискатель!**

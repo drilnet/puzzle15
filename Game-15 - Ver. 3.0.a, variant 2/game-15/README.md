@@ -6,7 +6,7 @@
 <br>
 Для работы скриптов необходим [ImageMagick](https://www.imagemagick.org/)!
 
-Открыть скрипт (для примера cat_00_scissors&size.pl) в любом текстовом редакторе!
+Открыть скрипт (для примера [cat_00_scissors&size.pl](https://github.com/drilnet/puzzle15/blob/main/Game-15%20-%20Ver.%203.0.a%2C%20variant%202/game-15/cat_00_scissors%26size.pl)) в любом текстовом редакторе!
 <br>
 Найти следующие строки:
 
@@ -49,6 +49,8 @@ $catalog = 'Cat_00';
 
 Запуск скрипта в [FreeBSD](https://www.freebsd.org "Berkeley Software Distribution") ([Linux](https://linux.org)): **$ perl cat_01_scissors&size.pl**
 
-Файл [cat_01_scissors&size.pl](https://github.com/drilnet/puzzle15/blob/main/Game-15%20-%20Ver.%203.0.a%2C%20variant%201/cat_01_scissors%26size.pl) игрой не используется!
+Файлы [cat_00_scissors&size.pl](https://github.com/drilnet/puzzle15/blob/main/Game-15%20-%20Ver.%203.0.a%2C%20variant%202/game-15/cat_00_scissors%26size.pl), [cat_01_scissors&size.pl](https://github.com/drilnet/puzzle15/blob/main/Game-15%20-%20Ver.%203.0.a%2C%20variant%202/game-15/cat_01_scissors%26size.pl), [cat_02_scissors&size.pl](https://github.com/drilnet/puzzle15/blob/main/Game-15%20-%20Ver.%203.0.a%2C%20variant%202/game-15/cat_02_scissors%26size.pl) игрой не используется!
 <br>
-Его можно удалить!
+Их можно удалить!
+
+[Ukraine](https://en.wikipedia.org/wiki/Ukraine) (Украина). (**C**) Демидов С.В.

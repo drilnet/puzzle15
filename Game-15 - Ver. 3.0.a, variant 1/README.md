@@ -62,7 +62,7 @@ $catalog = 'Cat_01';
 <br>
 Но! Разобратся можно!
 
-Запуск скрипта в [FreeBSD](https://www.freebsd.org "Berkeley Software Distribution") ([Linux](https://linux.org)): $ perl cat_01_scissors&size.pl
+Запуск скрипта в [FreeBSD](https://www.freebsd.org "Berkeley Software Distribution") ([Linux](https://linux.org)): **$ perl cat_01_scissors&size.pl**
 
 Файл [cat_01_scissors&size.pl](https://github.com/drilnet/puzzle15/blob/main/Game-15%20-%20Ver.%203.0.a%2C%20variant%201/cat_01_scissors%26size.pl) игрой не используется!
 <br>

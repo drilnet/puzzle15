@@ -25,7 +25,7 @@
 
 Ещё скриншоты:
 
-[Скриншот 3 игры Пятнашки](https://github.com/drilnet/puzzle15/blob/main/Game-15%20-%20Ver.%203.0.a%2C%20screenshots/Screenshot%203%20-%20Game-15%2C%20variant%202%20(075%25).png)
+[Скриншот 3 игры Пятнашки](https://github.com/drilnet/puzzle15/blob/main/Game-15%20-%20Ver.%203.0.a%2C%20screenshots/Screenshot%203%20-%20Game-15%2C%20variant%202%20(075%25).png  "Для просмотра нажмите")
 <br>
 [Скриншот 4 игры Пятнашки](https://github.com/drilnet/puzzle15/blob/main/Game-15%20-%20Ver.%203.0.a%2C%20screenshots/Screenshot%204%20-%20Game-15%2C%20variant%202%20(075%25).png)
 <br>
@@ -33,6 +33,7 @@
 <br>
 [Скриншот 6 игры Пятнашки](https://github.com/drilnet/puzzle15/blob/main/Game-15%20-%20Ver.%203.0.a%2C%20screenshots/Screenshot%206%20-%20Game-15%2C%20variant%202%20(075%25).png)
 
+В скриншотах [3](https://github.com/drilnet/puzzle15/blob/main/Game-15%20-%20Ver.%203.0.a%2C%20screenshots/Screenshot%203%20-%20Game-15%2C%20variant%202%20(075%25).png), [4](https://github.com/drilnet/puzzle15/blob/main/Game-15%20-%20Ver.%203.0.a%2C%20screenshots/Screenshot%204%20-%20Game-15%2C%20variant%202%20(075%25).png), [5](https://github.com/drilnet/puzzle15/blob/main/Game-15%20-%20Ver.%203.0.a%2C%20screenshots/Screenshot%205%20-%20Game-15%2C%20variant%202%20(075%25).png), [6](https://github.com/drilnet/puzzle15/blob/main/Game-15%20-%20Ver.%203.0.a%2C%20screenshots/Screenshot%206%20-%20Game-15%2C%20variant%202%20(075%25).png) используются изображения **LogoVRLE8** и **LogoVRLE16**.
 Изображение **LogoVRLE8** и **LogoVRLE16** были взяты отсюда: [https://github.com/drilnet/blender3d-logovrle8-logovrle16](https://github.com/drilnet/blender3d-logovrle8-logovrle16 "Blender 3D. Логотип VRLE8 и Логотип VRLE16")
 <br>
 Эта игра есть у меня на сайте: [https://drilnet.github.io](https://drilnet.github.io "Нажмите")

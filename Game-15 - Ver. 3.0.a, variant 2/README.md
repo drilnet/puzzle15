@@ -43,7 +43,7 @@
 <br>
 Эта игра есть у меня на сайте: [https://drilnet.github.io](https://drilnet.github.io "Нажмите")
 
-Как вставить своё изображение смотрите [здесь](https://github.com/drilnet/puzzle15/tree/main/Game-15%20-%20Ver.%203.0.a%2C%20variant%202/game-15 "https://github.com/drilnet/puzzle15/tree/main/Game-15%20-%20Ver.%203.0.a%2C%20variant%202/game-15").
+Как вставить своё изображение смотрите [здесь](https://github.com/drilnet/puzzle15/tree/main/Game-15%20-%20Ver.%203.0.a%2C%20variant%202/game-15 "https://github.com/drilnet/puzzle15/tree/main/Game-15 - Ver. 3.0.a, variant 2/game-15").
 
 **Что можно улучшить?**
 <br>

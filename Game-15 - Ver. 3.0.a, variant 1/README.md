@@ -68,7 +68,7 @@ $catalog = 'Cat_01';
 
 Файл [cat_01_scissors&size.pl](https://github.com/drilnet/puzzle15/blob/main/Game-15%20-%20Ver.%203.0.a%2C%20variant%201/cat_01_scissors%26size.pl) игрой не используется!
 <br>
-Его можно удалить!
+Его можно скопировать в другое место!
 
 ### Скриншот 1 игры Пятнашки
 

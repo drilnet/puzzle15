@@ -51,6 +51,6 @@ $catalog = 'Cat_00';
 
 Файлы [cat_00_scissors&size.pl](https://github.com/drilnet/puzzle15/blob/main/Game-15%20-%20Ver.%203.0.a%2C%20variant%202/game-15/cat_00_scissors%26size.pl), [cat_01_scissors&size.pl](https://github.com/drilnet/puzzle15/blob/main/Game-15%20-%20Ver.%203.0.a%2C%20variant%202/game-15/cat_01_scissors%26size.pl), [cat_02_scissors&size.pl](https://github.com/drilnet/puzzle15/blob/main/Game-15%20-%20Ver.%203.0.a%2C%20variant%202/game-15/cat_02_scissors%26size.pl) игрой не используются!
 <br>
-Их можно удалить!
+Их можно скопировать в другое место!
 
 [Ukraine](https://en.wikipedia.org/wiki/Ukraine) (Украина). (**C**) Демидов С.В.

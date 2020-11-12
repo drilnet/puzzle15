@@ -13,7 +13,7 @@
 <br>
 Дополнительно распакуйте архив с изображениями находящийся в [Cat_01](https://github.com/drilnet/puzzle15/tree/main/Game-15%20-%20Ver.%203.0.a%2C%20variant%201/Cat_01 "Здесь хранится нарезка изображений для игры!")!
 <br>
-Откройте **game-15.html** в любом браузере ([Google Chrome](https://www.google.com/intl/ru/chrome/), [Opera](https://www.opera.com/ru/download) и др.)!
+Откройте файл **game-15.html** в любом браузере ([Google Chrome](https://www.google.com/intl/ru/chrome/), [Opera](https://www.opera.com/ru/download) и др.)!
 
 ### Как вставить своё изображение!
 

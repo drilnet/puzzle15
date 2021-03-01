@@ -33,9 +33,13 @@
 
 <hr>
 
-[Пятнашки в русской Вики](https://ru.wikipedia.org/wiki/%D0%98%D0%B3%D1%80%D0%B0_%D0%B2_15)
+[Пятнашки в Русской Вики](https://ru.wikipedia.org/wiki/%D0%98%D0%B3%D1%80%D0%B0_%D0%B2_15)
 <br>
-[Пятнашки в украинской Вики](https://uk.wikipedia.org/wiki/%D0%9F%27%D1%8F%D1%82%D0%BD%D0%B0%D1%88%D0%BA%D0%B8)
+[Пятнашки в Украинской Вики](https://uk.wikipedia.org/wiki/%D0%9F%27%D1%8F%D1%82%D0%BD%D0%B0%D1%88%D0%BA%D0%B8)
+
+**Примечание.**
+<br>
+Ссылки на **Вики** написаны в алфавитном порядке!
 
 <hr>
 
